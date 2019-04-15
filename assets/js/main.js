@@ -105,8 +105,8 @@
 		(function() {
 
 			// Vars.
-				var $form = document.querySelectorAll('#signup-form')[0],
-					$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
+				var $form = document.querySelectorAll('#mc_embed_signup')[0],
+					$submit = document.querySelectorAll('#mc_embed_signup[type="submit"]')[0],
 					$message;
 
 			// Bail if addEventListener isn't supported.
