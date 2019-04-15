@@ -1,21 +1,10 @@
-Eventually by HTML5 UP
+## SousX landing page
+
+### Design by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-
-Just a simple placeholder template for your kickass app/product/startup/whatever until it
-launches. Includes an email signup form and a cool slideshow background (more on both below).
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Signup Form:
+### Signup Form:
 
 	The signup form won't actually do anything (other than report back with a "thank you" message)
 	until you tie it to either a third party service (eg. MailChimp) or your own hosted solution.
@@ -33,7 +22,7 @@ Signup Form:
 	form itself.
 
 
-Slideshow Background:
+### Slideshow Background:
 
 	This is pretty straightforward, but there are two JS settings you'll want to be aware of
 	(found under "Slideshow Background" in assets/js/main.js):
@@ -55,7 +44,7 @@ Slideshow Background:
 		the transition speed itself (currently 3 seconds).
 
 
-Credits:
+### Credits:
 
 	Demo Images:
 		Unsplash (unsplash.com)
