@@ -1242,3 +1242,38 @@ input, select, textarea {
 		background-position: 1000px;
 	}
 }
+
+#mc_embed_signup_scroll {
+	width: 500px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between
+}
+
+#mc-embedded-subscribe {
+	margin: 0 2em;
+}
+
+/* Smartphones Breakpoint ----------- */
+@media only screen and (max-width : 520px) {
+	#c-title {
+		text-align: center;
+		position: absolute;
+		top: 0;
+		padding-top: 5vh;
+		left: 50%;
+		transform: translateX(-50%);
+		margin: auto;
+		font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+		font-size: 1.4em;
+	}
+	#mc_embed_signup_scroll {
+		width: 100%;
+		display: flex;
+		flex-flow: column wrap;
+	}
+	#mc-embedded-subscribe {
+		margin: 2em 0;
+		width: 100%;
+	}
+}
