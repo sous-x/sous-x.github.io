@@ -1244,10 +1244,12 @@ input, select, textarea {
 }
 
 #mc_embed_signup_scroll {
-	width: 500px;
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: space-between
+}
+
+#mce-EMAIL {
+	width: 600px;
 }
 
 #mc-embedded-subscribe {
@@ -1274,6 +1276,9 @@ input, select, textarea {
 	}
 	#mc-embedded-subscribe {
 		margin: 2em 0;
+		width: 100%;
+	}
+	#mce-EMAIL {
 		width: 100%;
 	}
 }
