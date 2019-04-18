@@ -136,7 +136,7 @@
 
 			// Events.
 			// Note: If you're *not* using AJAX, get rid of this event listener.
-				$form.addEventListener('submit', function(event) {
+				$form.addEventListener('subscribe', function(event) {
 
 					event.stopPropagation();
 					event.preventDefault();
@@ -145,7 +145,7 @@
 						$message._hide();
 
 					// Disable submit.
-						$submit.disabled = true;
+						$subscribe.disabled = true;
 
 					// Process form.
 					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
